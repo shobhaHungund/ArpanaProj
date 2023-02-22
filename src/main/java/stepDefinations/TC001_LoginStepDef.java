@@ -29,6 +29,7 @@ public class TC001_LoginStepDef {
 	   System.out.println("Check title");
 	   String title=driver.getTitle();
 	   Assert.assertEquals(title,"Rediffmail");
+	   System.out.println("Assert Executed...");
 	}
 	@When("user enters user name password")
 	public void user_enters_user_name_password() {
