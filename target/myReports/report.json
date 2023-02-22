@@ -1,0 +1,177 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2023-02-22T15:44:49.732Z",
+    "line" : 2,
+    "name" : ":Verify Login for valid inputs and display message as Login Successful",
+    "description" : "",
+    "id" : "login-action;:verify-login-for-valid-inputs-and-display-message-as-login-successful",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 24084377600,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "User is on Home page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1737099300,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user clicks on Sign in",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_clicks_on_sign_in()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 338019300,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "Login page is dislayed with title Rediffmail",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.login_page_is_dislayed_with_title_rediffmail()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 3537202300,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user enters user name password",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_enters_user_name_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "clicks on Submit",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.clicks_on_submit()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "user gets connected users inbox and display message as Successful",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_gets_connected_users_inbox_and_display_message_as_successful()"
+      },
+      "keyword" : "Then "
+    } ]
+  }, {
+    "start_timestamp" : "2023-02-22T15:45:19.574Z",
+    "line" : 10,
+    "name" : ":Verify Login for invalid inputs and display error message",
+    "description" : "",
+    "id" : "login-action;:verify-login-for-invalid-inputs-and-display-error-message",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 13155752400,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "User is on Home page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_is_on_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 891051000,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "user clicks on Sign in",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_clicks_on_sign_in()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 37002100,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "Login page is dislayed with title Rediffmail",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.login_page_is_dislayed_with_title_rediffmail()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "enter invalid user name and valid password",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.enter_invalid_user_name_and_valid_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 15,
+      "name" : "clicks on Submit",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.clicks_on_submit()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 16,
+      "name" : "Check for error message",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.check_for_error_message()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1000000,
+        "status" : "passed"
+      },
+      "line" : 17,
+      "name" : "user enters valid user name and invalid password",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.user_enters_valid_user_name_and_invalid_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 18,
+      "name" : "Check for error message",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDef.check_for_error_message()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Login Action",
+  "description" : "",
+  "id" : "login-action",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TC001_Login.feature",
+  "tags" : [ ]
+} ]

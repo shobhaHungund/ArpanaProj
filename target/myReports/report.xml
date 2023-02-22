@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="44.377">
+    <testcase classname="Login Action" name=":Verify Login for valid inputs and display message as Login Successful" time="29.804">
+        <system-out><![CDATA[Given User is on Home page..................................................passed
+When user clicks on Sign in.................................................passed
+Then Login page is dislayed with title Rediffmail...........................passed
+When user enters user name password.........................................passed
+And clicks on Submit........................................................passed
+Then user gets connected users inbox and display message as Successful......passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Action" name=":Verify Login for invalid inputs and display error message" time="14.087">
+        <system-out><![CDATA[Given User is on Home page..................................................passed
+When user clicks on Sign in.................................................passed
+Then Login page is dislayed with title Rediffmail...........................passed
+When enter invalid user name and valid password.............................passed
+And clicks on Submit........................................................passed
+Then Check for error message................................................passed
+When user enters valid user name and invalid password.......................passed
+Then Check for error message................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
